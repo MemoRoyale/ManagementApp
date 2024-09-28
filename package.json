@@ -33,6 +33,7 @@
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.9",
     "@types/node": "^20.16.5",
     "@types/numeral": "^2.0.5",
     "@types/react": "^18",
