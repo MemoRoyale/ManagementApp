@@ -28,5 +28,6 @@ export const dataGridSxStyles = (isDarkMode: boolean) => {
     "& .MuiDataGrid-withBorderColor": {
       borderColor: `${isDarkMode ? "#2d3135" : "e5e7eb"}`,
     },
+    
   };
 };
