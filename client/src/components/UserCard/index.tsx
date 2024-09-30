@@ -9,7 +9,7 @@ type Props = {
 const UserCard = ({ user }: Props) => {
   return (
     <div className="flex items-center rounded border p-4 shadow">
-      {/* {user.profilePictureUrl && (
+      {user.profilePictureUrl && (
         <Image
           src={`https://pmapp-s3-images.s3.ap-southeast-2.amazonaws.com/`}
           alt="profile picture"
@@ -17,7 +17,7 @@ const UserCard = ({ user }: Props) => {
           height={32}
           className="rounded-full"
         />
-      )} */}
+      )}
       <div>
         <h3>{user.username}</h3>
         <p>{user.email}</p>
