@@ -1,4 +1,6 @@
 #  Project Management Dashboard
+Click on this link to view hosted project
+https://master.d3shanzy867oul.amplifyapp.com/
 
 ## Technology Stack
 
