@@ -1,11 +1,13 @@
 import Header from "@/components/Header";
+import { useGetAuthUserQuery } from "@/state/api";
 import React from "react";
 
 const Settings = () => {
+  const { data: currentUser } = useGetAuthUserQuery({});
   const userSettings = {
-    username: "johndoe",
-    email: "john.doe@example.com",
-    teamName: "Development Team",
+    username: currentUser?.userDetails.username,
+    email: currentUser?.userDetails.email,
+    teamName: currentUser?.userDetails.teamId,
     roleName: "Developer",
   };
 
