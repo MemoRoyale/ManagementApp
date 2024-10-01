@@ -5,9 +5,9 @@ import React from "react";
 const Settings = () => {
   const { data: currentUser } = useGetAuthUserQuery({});
   const userSettings = {
-    username: currentUser?.userDetails.username,
-    email: currentUser?.userDetails.email,
-    teamName: currentUser?.userDetails.teamId,
+    username: currentUser?.userDetails?.username,
+    email: currentUser?.userDetails?.email,
+    teamName: currentUser?.userDetails?.teamId?.toString(),
     roleName: "Developer",
   };
 
